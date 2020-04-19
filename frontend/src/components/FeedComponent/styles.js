@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const List = styled.ul`
-  text-align: center;
-  width: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;

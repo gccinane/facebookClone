@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Name, Date, Content } from './styles';
+import { Container } from './styles';
+import img from './GUILHERME50ANOS.jpeg'
 export default class PostComponent extends Component {
 
 
@@ -7,11 +8,12 @@ export default class PostComponent extends Component {
     const { data } = this.props;
     return (
 
-      <>
-        <Name>{data.author.name}</Name>
-        <Date>{data.date}</Date>
-        <Content>{data.content}</Content>
-      </>
+      <Container>
+        <img src={img} alt="sim" />
+        <h1>{data.author.name}</h1>
+        <time>{data.date}</time>
+        <p>{data.content}</p>
+      </Container>
     )
   }
 }
