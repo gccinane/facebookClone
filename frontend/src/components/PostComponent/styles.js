@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     margin-top: 20px;
-    padding: 35px;
+    padding: 20px 30px;
     background: #fff;
     border: 2px solid transparent;
     width: 760px;
@@ -19,11 +19,11 @@ export const Container = styled.div`
       float: left;
       border-radius: 50px;
       width: 45px;
-      margin: 10px  14px 0px;
+      margin: 0px  14px;
     }
 
     h1 {
-      padding-top: 10px;
+      padding-top:10px;
       font-size: 18px;
     }
 
@@ -33,6 +33,7 @@ export const Container = styled.div`
       color: #808080;
     }
     p {
-      margin: 10px  15px 0px;
+      margin: 10px  15px 15px;
     }
+    
 `;

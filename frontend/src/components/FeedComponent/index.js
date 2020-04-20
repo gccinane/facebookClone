@@ -24,6 +24,56 @@ export default class FeedComponent extends Component {
           }
         ]
       },
+      {
+        id: 2,
+        author: {
+          name: "Julio Alcantara",
+          avatar: "http://url-da-imagem.com/imagem.jpg"
+        },
+        date: "04 Jun 2019",
+        content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
+        comments: [
+        ]
+      },
+      {
+        id: 3,
+        author: {
+          name: "Julio Alcantara",
+          avatar: "http://url-da-imagem.com/imagem.jpg"
+        },
+        date: "04 Jun 2019",
+        content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
+        comments: [
+          {
+            id: 3
+            ,
+            author: {
+              name: "Diego Fernandes da silva ssauro",
+              avatar: "http://url-da-imagem.com/imagem.jpg"
+            },
+            content: "Conteúdo do comentáriolllllllllllllllllllllllllllllllllllllllllllllllllllllllllsaoçdifjhiasojfisadfisaçjdifjsaioçdfiajsdfoiçsjadiojsdfiojsadijfdsioçjdsadsajasdçojdasiodsçfjidfsoçjsdfiçojdfsioçjllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll"
+          }
+        ]
+      },
+      {
+        id: 4,
+        author: {
+          name: "Julio Alcantara",
+          avatar: "http://url-da-imagem.com/imagem.jpg"
+        },
+        date: "04 Jun 2019",
+        content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
+        comments: [
+          {
+            id: 4,
+            author: {
+              name: "Diego Fernandes",
+              avatar: "http://url-da-imagem.com/imagem.jpg"
+            },
+            content: "Conteúdo do comentário"
+          }
+        ]
+      }
 
     ]
   };

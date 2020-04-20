@@ -5,7 +5,7 @@ export const Header = styled.header`
   padding: 35px;
   font-size: 25px;
   color: #fff;
-  font-family:  'Lucida Sans Unicode', 'Lucida Sans',Geneva, Verdana, sans-serif;
+  
   font-weight: bold;
   display: flex;
   flex-direction: row;
